@@ -5,3 +5,5 @@ mycursor.execute("select * from student")
 result = mycursor.fetchall()
 for i in result:
     print(i)
+
+print("Successful Connection")
